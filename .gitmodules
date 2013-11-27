@@ -1,0 +1,9 @@
+[submodule "vagrant/cookbooks/yum"]
+	path = vagrant/cookbooks/yum
+	url = https://github.com/opscode-cookbooks/yum.git
+[submodule "vagrant/cookbooks/httpd-php"]
+	path = vagrant/cookbooks/httpd-php
+	url = https://github.com/hayashida/httpd-php.git
+[submodule "vagrant/cookbooks/mysql-server"]
+	path = vagrant/cookbooks/mysql-server
+	url = https://github.com/hayashida/mysql-server.git
