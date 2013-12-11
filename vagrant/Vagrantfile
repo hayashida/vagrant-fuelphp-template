@@ -123,5 +123,14 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     chef.add_recipe "httpd-php"
     chef.add_recipe "mysql-server"
     chef.add_recipe "fuelphp"
+
+#    chef.json {
+#      "fuel" => {
+#        "db" => [
+#          "fuel_dev",
+#          "fuel_test"
+#        ]
+#      }
+#    }
   end
 end
